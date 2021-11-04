@@ -1,0 +1,62 @@
+.meet__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.meet__item {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 56px;
+    width: 340px;
+    margin-bottom: 50px;
+    background-color: #012F34;
+}
+
+.meet__item-4 {
+    padding-top: 42px;
+    padding-bottom: 55px;
+    width: 340px;
+    margin-bottom: 50px;  
+    background-color: #012F34;
+}
+
+.meet__item::before {
+    content: "+";
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F67E7E;
+    border-radius: 50%;
+    transform: translate(145px, 180px);
+}
+
+.meet__item-4::before {
+    content: "+";
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translate(145px, 168px);
+}
+
+.meet__list-4-text {
+    max-width: 254px;
+}
+
+.meet__link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.meet__link:hover .meet__svg path {
+    fill: #F67E7E;
+}
